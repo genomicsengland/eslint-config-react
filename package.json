@@ -1,10 +1,10 @@
 {
   "name": "@zonedigital/eslint-config-react",
-  "version": "4.3.0",
+  "version": "5.3.0",
   "description": "This package provides Zone's JavaScript style guide for React as an extensible shared config.",
   "main": "index.js",
   "repository": "github:zone/frontend",
-  "author": "Mike Simmonds (https://simmo.codes)",
+  "author": "Mike Simmonds (https://mike.id)",
   "license": "MIT",
   "bugs": "https://github.com/zone/frontend/issues",
   "homepage": "https://github.com/zone/frontend/tree/master/packages/eslint-config-react#readme",
@@ -21,22 +21,20 @@
     "access": "public"
   },
   "engines": {
-    "node": "^8 || ^10 || ^12"
+    "node": ">=10"
   },
   "dependencies": {
-    "@zonedigital/eslint-config-zone": "^4.3.0"
+    "@zonedigital/eslint-config-zone": "^5.3.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-hooks": "^3.0.0"
   },
   "devDependencies": {
-    "eslint-plugin-compat": "^3.0.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-react": "^7.13.0",
-    "eslint-plugin-react-hooks": "^1.5.1"
+    "eslint": "^6.5.1",
+    "prettier": "^2.0.4"
   },
   "peerDependencies": {
-    "eslint": "^5.0.0",
-    "eslint-plugin-compat": "^3.0.0",
-    "eslint-plugin-import": "^2.0.0",
-    "eslint-plugin-react": "^7.13.0",
-    "eslint-plugin-react-hooks": "^1.5.1"
+    "eslint": "^6.0.0",
+    "prettier": "^2.0.0"
   }
 }
