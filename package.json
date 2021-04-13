@@ -24,7 +24,7 @@
     "node": "^8 || ^10 || ^12"
   },
   "dependencies": {
-    "@zonedigital/eslint-config-zone": "^4.3.0"
+    "@zonedigital/eslint-config-zone": "github:genomicsengland/eslint-config-zone#4.3.0"
   },
   "devDependencies": {
     "eslint-plugin-compat": "^3.0.0",
