@@ -20,7 +20,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@zonedigital/eslint-config-zone": "^2.0.6"
+    "@zonedigital/eslint-config-zone": "github:genomicsengland/eslint-config-zone"
   },
   "devDependencies": {
     "eslint-plugin-import": "^2.0.0",
