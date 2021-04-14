@@ -24,7 +24,7 @@
     "node": ">=10"
   },
   "dependencies": {
-    "@zonedigital/eslint-config-zone": "github:genomicsengland/eslint-config-zone#version-5.2.1",
+    "@zonedigital/eslint-config-zone": "git+https://github.com/genomicsengland/eslint-config-zone#version-5.2.1",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-react-hooks": "^3.0.0"
